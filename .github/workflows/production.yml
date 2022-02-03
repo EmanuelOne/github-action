@@ -22,5 +22,5 @@ jobs:
         with:
           args: deploy --dir=build --prod
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-          heroku_app_name: 'github-actions-heroku-prod'
+          heroku_app_name: 'github-action-with-react'
           heroku_email: 'craige270@gmail.com'
