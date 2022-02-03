@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.tag-wrapper.ReactTags__tag:first-of-type {
+  display: none;
+}
+.tag-wrapper.ReactTags__tag {
+  margin: 0 0.2rem;
+}
